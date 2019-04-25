@@ -130,7 +130,7 @@ pre {
         justify-content: center;
         align-items: center;
         float: right;
-        width: 12.81rem; /*205px*/
+        width: 13.75rem; /*220px*/
         height: 4.938rem; /*79px*/;
         margin-left: 5rem; /*80px*/
         padding-top: 0.3125rem; /*5px*/
@@ -138,7 +138,8 @@ pre {
 
     #navbar.responsive h1 {
         font-size: 1.2rem; /*20px*/
-        margin-left: 0.3125rem; /*5px*/
+        margin-left: 0rem;
+        margin-right: 1rem; /*16px*/
     }
 
     #main-doc.responsive #icon-closed {
