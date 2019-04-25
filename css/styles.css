@@ -3,15 +3,10 @@ body {
     line-height: 1.6;
 }
 
-#container { /*might not need*/
-    width: 100%;
-    float: left;
-}
-
 #navbar {
     border-right: 1px solid black;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     width: 18.75rem; /*300px*/
     height: 100%;
     position: fixed;
@@ -50,8 +45,8 @@ a, a:visited {
 .icon-container {
     background-color: white;
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     width: 100%;
 }
 
@@ -95,7 +90,7 @@ pre {
     }
 
     #main-doc {
-        margin-left: 0px;
+        margin-left: 0rem;
     }
 
     #main-doc a#icon-closed {
@@ -111,7 +106,7 @@ pre {
 
 @media screen and (max-width: 823px) {
     #navbar.responsive {
-        margin-left: 0px;
+        margin-left: 0rem;
         transition: margin 0.5s;
     }
 
@@ -134,7 +129,6 @@ pre {
         display: flex;
         justify-content: center;
         align-items: center;
-        /*position: fixed;*/
         float: right;
         width: 12.81rem; /*205px*/
         height: 4.938rem; /*79px*/;
